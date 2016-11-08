@@ -1,0 +1,406 @@
+body
+{
+    margin: 20px 15.5px 0;
+    background: black;
+}
+
+header
+{
+    background: white;
+    padding: 5px 5px 1px 5px;
+    width: 1245px;
+}
+
+.container
+{
+    height: 26px;
+    width: 1245px;
+    background: #36a;
+}
+
+#date
+{
+    float: left;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: white;
+    line-height: 22px;
+    width: 164px;
+    height: 22px;
+    padding: 4px 0 0 6px;
+    text-shadow: #3263A5 0 1px 0;
+    background: #6292C6;
+}
+
+#age_limit
+{
+    background: #6292C6;
+    color: white;
+    float: right;
+    width: 45px;
+    height: 26px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    text-align: center;
+    line-height: 24px;
+    padding-left: 0;
+}
+
+#ref_menu
+{
+    padding: 0 0 0 5px;
+    width: 270px;
+    height: 25px;
+    float: right;
+    background: #255096;
+}
+
+#ref_menu ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#ref_menu li:nth-child(1):hover
+{
+    background: #4C75A3;
+}
+
+#ref_menu li:nth-child(2):hover
+{
+    background: #3b5998;
+}
+
+#ref_menu li:nth-child(3):hover
+{
+    background: #E62117;
+}
+
+#ref_menu li:nth-child(4):hover
+{
+    background: #5257cc;
+}
+
+#ref_menu li:nth-child(5):hover
+{
+    background: #00aced;
+}
+
+#ref_menu li:nth-child(6):hover
+{
+    background: #dd4b39;
+}
+
+#ref_menu li:nth-child(7):hover
+{
+    background: #ED812B;
+}
+
+#ref_menu li:nth-child(8):hover
+{
+    background: #2197d5;
+}
+
+#ref_menu li:nth-child(9):hover
+{
+    background: #c45de7;
+}
+
+#ref_menu li
+{
+
+    height: 25px;
+    width: 27px;
+    float: left;
+    display: block;
+    transition: all 200ms ease-out;
+}
+
+
+#im2
+{
+    float: right;
+}
+
+nav
+{
+    float: right;
+    width: 253px;
+    line-height: 22px;
+}
+
+nav ul
+{
+    padding: 0;
+    margin: 0;
+}
+
+nav li
+{
+    float: left;
+    display: block;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 2px 1px 2px 1px;
+    padding: 0 4px 0 4px;
+    height: 22px;
+}
+
+nav li a
+{
+    color: white;
+    text-decoration: none;
+    text-shadow: #023375 0 1px 0;
+}
+
+nav li:hover
+{
+    text-decoration: underline;
+    background: #6292C6;
+}
+
+
+
+#left-block
+{
+    width: 169px;
+    height: 1000px;
+    background: white;
+    padding-left: 5px;
+}
+
+#logo
+{
+    padding-left: 5px;
+    padding-top: 5px;
+    max-width: 169px;
+    height: 68px;
+}
+
+#poisk
+{
+    background: #6292C6;
+    padding: 7px 6px 6px 6px;
+    height: 39px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: white;
+    text-shadow: #3263A5 0 1px 0;
+    margin-bottom: 1px;
+}
+
+
+#form
+{
+    height: 14px;
+    width: 120px;
+    margin-top: 4px;
+    padding: 3px;
+    border: none;
+    float: left;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #666;
+}
+
+#buton
+{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    float: left;
+    border: none;
+    padding: 0;
+    margin-left: 2px;
+    background-image: url(../images/search-button.png);
+}
+
+#news
+{
+    padding: 8px 6px 3px 6px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #36a;
+    height: 15px;
+    color: #fff;
+    text-shadow: #023375 0 1px 0;
+    border-bottom: 1px solid #023375;
+}
+
+#news:hover
+{
+    background: #6292C6;
+}
+
+#news a
+{
+    text-decoration: none;
+}
+
+.sub-news
+{
+    height: 24px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+.sub-news a:hover
+{
+    background: url(../images/single-dot.png) 9px center no-repeat #c8ddf2 !important;
+}
+
+.sub-news a
+{
+    text-decoration: none;
+    color: #3263a5;
+    padding-left: 17px;
+    text-shadow: #fff 0 1px 0;
+    width: 152px;
+    display: block;
+    height: 23px;
+    line-height: 25px;
+    background: #c8ddf2;
+    border-bottom: 1px solid #fff;
+}
+
+#menu-im
+{
+    position: relative;
+    top: 8px;
+    left: -53px;
+}
+
+#finance
+{
+    padding: 0 6px 3px 6px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #36a;
+    border-bottom: 1px solid #023375;
+    height: 16px;
+    line-height: 18px;
+    margin-bottom: 1px;
+}
+
+#finance:hover
+{
+    background: #6292C6;
+    border-bottom: 0;
+    height: 17px;
+}
+
+#finance a
+{
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-shadow: #023375 0 1px 0;
+}
+
+.left-block-sub-menu
+{
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #36a;
+    height: 24px;
+    margin-bottom: 1px;
+    line-height: 18px;
+    border-bottom: 1px solid #023375;
+}
+
+.left-block-sub-menu:hover
+{
+    background: #6292C6;
+    border-bottom: 0;
+    height: 25px;
+}
+
+.left-block-sub-menu a
+{
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-shadow: #023375 0 1px 0;
+    padding: 5px 6px 3px 6px;
+}
+
+#Mon
+{
+   margin-bottom: 0;
+}
+
+#video
+{
+    padding: 5px 6px 3px 6px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #36a;
+    height: 46px;
+    border-bottom: 1px solid #023375;
+    margin-bottom: 1px;
+    line-height: 18px;
+}
+
+#video:hover
+{
+    background: #6292C6;
+    border-bottom: 0;
+    height: 47px;
+}
+
+#video a
+{
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-shadow: #023375 0 1px 0;
+}
+
+#video a img
+{
+    padding-top: 3px;
+}
+
+#menu-im2
+{
+    position: relative;
+    top: -15px;
+    left: 4px;
+}
+
+.left-block-sub-menu2
+{
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background: #c8ddf2;
+    height: 24px;
+    line-height: 14px;
+    text-shadow: #fff 0 1px 0;
+}
+
+.left-block-sub-menu2 a
+{
+    text-decoration: none;
+    color: #3263a5;
+    display: block;
+    padding: 6px 6px 3px 17px;
+    border-bottom: 1px solid #fff;
+}
+
+.left-block-sub-menu2 a:hover
+{
+    background: url(../images/single-dot.png) 9px center no-repeat #c8ddf2 !important;
+}
+
+#lb3
+{
+    height: 37px;
+    padding-bottom: 0;
+    line-height: 14px;
+}
+
+#lb3:hover
+{
+    background: url(../images/single-dot.png) 9px center no-repeat #c8ddf2 !important;
+}
